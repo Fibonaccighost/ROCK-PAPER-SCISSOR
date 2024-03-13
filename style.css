@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(162, 173, 215);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5vh 0;
+}
+
+.heading {
+    font-size: 8vw;
+    margin: 5vh auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+button {
+    background-color: #b6bcc2;
+    border: 3px solid grey;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+    font-size: 5vw;
+    padding: 10px 10vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: rgb(222, 226, 231);
+}
+
+.container{
+    width: 90vw;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+#container{
+    width: 90vw;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+img{
+    width: 30vw;
+}
+img{
+    width: 30vw;
+}
+.container div a,p{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+.container div a:hover{
+    text-decoration: underline;
+}
+#container div a,p{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+#container div{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+#container div a:hover{
+    text-decoration: underline;
+}
+
+#result{
+    font-size: 3rem;
+}
